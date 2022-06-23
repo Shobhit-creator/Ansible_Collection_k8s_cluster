@@ -1,4 +1,4 @@
-# Ansible Collection - rootritesh.k8s_cluster
+# Ansible_Collection_k8s_cluster
 
 ## Description
 Ansible Collection for configuring Kubernetes cluster on aws on t2.micro 
@@ -17,7 +17,7 @@ Ansible Collection for configuring Kubernetes cluster on aws on t2.micro
 * For running this Role make sure your dynamic inventory configured
 
 ## Use This Role
-* Download this `ansible-galaxy collection install rootritesh.k8s_cluster`
+* Download this `ansible-galaxy collection install collection_name
 * Playbook Example for running this Role
 		
 		- hosts: Hosts
@@ -26,15 +26,14 @@ Ansible Collection for configuring Kubernetes cluster on aws on t2.micro
 		  roles:
 		    - role: role_name
 
+
 ## Tested OS
 * Amazon AMI 2
 * RHEL8
 
-## License
-MIT
 
-## Author
-[Ritesh Singh](https://www.linkedin.com/in/rootritesh/)
+
+
 
 
 
