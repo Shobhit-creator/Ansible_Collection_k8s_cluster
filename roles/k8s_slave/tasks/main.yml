@@ -1,0 +1,7 @@
+- name: using awsmi2 file
+  include_tasks: awsami2.yml
+  when: ansible_distribution == "Amazon"
+
+- name: using rehl file
+  include_tasks: rehl.yml
+  when: ansible_distribution == "RedHat"
